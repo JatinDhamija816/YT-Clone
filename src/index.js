@@ -1,7 +1,6 @@
-import ConnectDB from "./db/index.js";
 import dotenv from 'dotenv'
+import ConnectDB from "./db/index.js";
 
 dotenv.config()
-
 
 ConnectDB()
